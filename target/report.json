@@ -1,0 +1,135 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Add cust info",
+        "description": "",
+        "id": "add-cust-twdmap;add-cust-info",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9849247900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Launch twod url",
+            "match": {
+              "location": "TwoDmap.launch_twod_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1924938800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click link twod",
+            "match": {
+              "location": "TwoDmap.click_link_twod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12086031500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "fill detail twod",
+            "match": {
+              "location": "TwoDmap.fill_detail_twod(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fname",
+                  "Lname",
+                  "MailId",
+                  "Address",
+                  "Phone.No"
+                ]
+              },
+              {
+                "cells": [
+                  "Gajen",
+                  "Mani",
+                  "gg@gmail.com",
+                  "Krr",
+                  "73888818"
+                ]
+              },
+              {
+                "cells": [
+                  "hewee",
+                  "jwej",
+                  "hh@gmail.com",
+                  "hee",
+                  "45366266"
+                ]
+              },
+              {
+                "cells": [
+                  "ryeeh",
+                  "ettt",
+                  "rr@gmail.com",
+                  "ger",
+                  "32292991"
+                ]
+              },
+              {
+                "cells": [
+                  "iwiwi",
+                  "eree",
+                  "er@gmail.com",
+                  "wer",
+                  "92983882"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "CustomerDetail.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Add cust twdmap",
+    "description": "  I want to use this template for my feature file",
+    "id": "add-cust-twdmap",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/TwoDMap.Feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
