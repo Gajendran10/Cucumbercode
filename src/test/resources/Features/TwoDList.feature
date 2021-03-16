@@ -5,8 +5,7 @@ Feature: Adding Customer info
 
   @tag1
   Scenario: Customer info adding
-    Given User launch brow
-    And Click cus link
+    Given Click cus link
     When add cus detail
     | Gajen | Mani | Gaj@gmail.com | Krr | 883372777 |
     | Trweg | hdhd | hdd@gmail.com | kwe | 489929999 |
